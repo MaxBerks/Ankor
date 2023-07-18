@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "300";   
+  src: local("KyivTypeSansLight"),
+    url("./assets/fonts/kyivType/KyivTypeSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "400";   
+  src: local("KyivTypeSansRegular"),
+    url("./assets/fonts/kyivType/KyivTypeSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "700";   
+  src: local("KyivTypeSansRegular"),
+    url("./assets/fonts/kyivType/KyivTypeSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "1000";   
+  src: local("KyivTypeSansBold"),
+    url("./assets/fonts/kyivType/KyivTypeSans-Black2.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mariupol";   
+  src: local("KyivTypeSansBold"),
+    url("./assets/fonts/mariupol/Mariupol-Medium.ttf") format("truetype");
+}
+
+body {
+  background: #F5F3F3;
+  line-height: 1;
+}
+
+.bigContainer {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.smallContainer {
+  max-width: 630px;
+  margin: 0 auto;
+}
