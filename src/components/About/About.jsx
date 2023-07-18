@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.scss'
-import ankorLogo from '../../assets/icons/ankorLogoGrey.svg';
+import ankorText from '../../assets/icons/ankorTextGrey.svg';
 import photoRight from '../../assets/images/photoRight.jpg';
 import photoLeft from '../../assets/images/photoLeft.jpg';
 import TripInfo from '../TripInfo/TripInfo';
@@ -11,7 +11,7 @@ export default function About() {
       <div className="about__container">
         <TripInfo text="Заїзд 2020, Карпати"/>
         <div className="about__content">
-          <img className="about__logo" src={ankorLogo} alt="#" />
+          <img className="about__logo" src={ankorText} alt="#" />
           <div className="about__gallery">
             <h2 className="about__label about__label-left">анкор —<br/>простір</h2>
             <img src={photoRight} alt="#" className="about__img about__img-right" />
