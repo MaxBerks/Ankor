@@ -1,0 +1,36 @@
+.philosophy {
+  padding-top: 5%;
+  height: 100vh;
+  background: url("../../assets/images/philosophyBg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  .philosophy__title {
+    text-transform: uppercase;
+    text-align: center;
+    color: #606060;
+    font-family: "1000";
+    font-size: 54px;
+    font-style: normal;
+    margin-bottom: 3%;
+    &-crossline {
+      color: #E8E8E8;
+      text-decoration-line: line-through;
+    }
+  }
+  .philosophy__subtitle {
+    color: #808080;
+    text-align: center;
+    font-family: "Mariupol";
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 3%;
+  }
+  .philosophy__text {
+    color: #999;
+    text-align: justify;
+    font-family: "Mariupol";
+    font-size: 16px;
+    width: 40vw;
+    margin: 0 auto;
+  }
+}
