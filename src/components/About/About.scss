@@ -1,0 +1,54 @@
+.about {
+  height: 100vh;
+  padding-bottom: 3%;
+  .about__container {
+    height: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    .about__content {
+      flex: 1 1 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      .about__logo {
+        margin: 0 auto;
+        width: 130px;
+      }
+      .about__gallery {
+        display: grid;
+        grid-template: 1fr 1fr / 1fr 1fr;
+        gap: 7px;
+        .about__label {
+          color: #606060;
+          text-transform: uppercase;
+          font-family: "1000";
+          font-size: 54px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          &-left {
+            text-align: right;
+            margin-right: 1%;
+          }
+        }
+      }
+      .about__title {
+        color: #606060;
+        text-align: center;
+        font-family: "Mariupol";
+        font-size: 16px;
+        text-transform: uppercase;
+      }
+      .about__text {
+        margin: 0 auto; 
+        color: #999;
+        text-align: justify;
+        width: 40vw;
+        font-family: "Mariupol";
+        font-size: 16px;
+      }
+    }
+  }
+}
