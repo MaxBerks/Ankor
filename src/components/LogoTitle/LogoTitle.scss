@@ -1,0 +1,23 @@
+.logoTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  height: 17.5%;
+  .logoTitle__logo {
+    width: 40px;
+    margin: 0 auto;
+  }
+  .logoTitle__title {
+    color: #606060;
+    font-family: "1000";
+    font-size: 54px;
+    text-transform: uppercase;
+  }
+  .logoTitle__subtitle {
+    color: #808080;
+    font-family: "Mariupol";
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
