@@ -1,8 +1,6 @@
 import React from "react"
 import "./Header.scss"
-import ankorText from '../../assets/icons/ankorTextWhite.svg';
-
-
+import ankorText from "../../assets/icons/ankorTextWhite.svg"
 
 export default function Header() {
 	return (
