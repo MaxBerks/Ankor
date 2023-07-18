@@ -1,0 +1,30 @@
+.start {
+  color: #fff;
+  height: 100vh;
+  background: url("../../assets/images/startBg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+  .start__content {
+    padding-top: 60px;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    .start__logo {
+      width: 40px;
+      margin: 0 auto;
+      margin-bottom: 45px;
+    }
+    .start__title {
+      text-align: center;
+      font-family: "1000";
+      font-size: 54px;
+      text-transform: uppercase;
+      margin-bottom: 35px;
+    }
+    .start__subtitle {
+      font-size: 16px;
+      font-family: "Mariupol";
+    }
+  }
+}
