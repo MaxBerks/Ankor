@@ -1,8 +1,8 @@
 import React from 'react'
 import './TripInfo.scss'
 
-export default function TripInfo() {
+export default function TripInfo({ text }) {
   return (
-    <div className="tripInfo">Заїзд 2020, Карпати</div>
+    <div className="tripInfo">{text}</div>
   )
 }

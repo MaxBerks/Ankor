@@ -9,7 +9,7 @@ export default function About() {
   return (
     <div className='about'>
       <div className="about__container">
-        <TripInfo />
+        <TripInfo text="Заїзд 2020, Карпати"/>
         <div className="about__content">
           <img className="about__logo" src={ankorLogo} alt="#" />
           <div className="about__gallery">
