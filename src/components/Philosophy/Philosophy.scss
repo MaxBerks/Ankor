@@ -1,6 +1,4 @@
 .philosophy {
-  padding-top: 5%;
-  height: 100vh;
   background: url("../../assets/images/philosophyBg.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
@@ -13,7 +11,7 @@
     font-style: normal;
     margin-bottom: 3%;
     &-crossline {
-      color: #E8E8E8;
+      color: #e8e8e8;
       position: relative;
       &::before {
         content: "";
@@ -21,7 +19,7 @@
         width: 115%;
         left: -7.5%;
         height: 3px;
-        background-color: #E8E8E8;
+        background-color: #e8e8e8;
         top: 50%;
         transform: translateY(-50%);
       }

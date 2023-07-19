@@ -1,0 +1,40 @@
+.photoSlider {
+  .photoSlider__container {
+    position: relative;
+    max-width: 1380px;
+    margin: 0 auto;
+    .photoSlider__btn {
+      position: absolute;
+      cursor: pointer;
+      position: absolute;
+      border-top: 3.5px solid #c7c7c7;
+      border-right: 3.5px solid #c7c7c7;
+      width: 10px;
+      height: 10px;
+      top: 50%;
+      transition: border-color 0.3s ease;
+      &:hover {
+        border-color: #808080;
+        &-left {
+          transform: translateY(-50%);
+          right: 0;
+          rotate: 45deg;
+        }
+        &-right {
+          transform: translateY(50%);
+          left: 0;
+          rotate: -135deg;
+        }
+      }
+      .photoSlider__content {
+        max-width: 1280px;
+        // overflow-x: auto;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .photoSlider__img {
+        }
+      }
+    }
+  }
+}
