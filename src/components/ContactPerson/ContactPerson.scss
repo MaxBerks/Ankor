@@ -1,0 +1,53 @@
+.contactPerson {
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	.contactPerson__img {
+	}
+	.contactPerson__name {
+		font-family: "Mariupol";
+		font-size: 16px;
+		font-weight: 500;
+		text-transform: uppercase;
+		color: #808080;
+		.contactPerson__delim {
+			color: #e3e3e3;
+		}
+		.contactPerson__position {
+			color: #c8c8c8;
+		}
+	}
+	.contactPerson__descr {
+		color: #808080;
+		text-align: justify;
+		font-family: "Mariupol";
+		font-size: 16px;
+		font-weight: 500;
+	}
+	.contactPerson__links {
+		// display: grid;
+		// grid-template-columns: 4fr 1fr 1fr 1fr;
+		// gap: 3%;
+		display: flex;
+		justify-content: space-between;
+		.contactPerson__btnContainer {
+			width: 68.571429%; /* 432/630 */
+		}
+		.contactPerson__link {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			background: #dad8d8;
+			width: 42px;
+			transition: background-color 0.5s ease;
+			&:hover {
+				background: #606060;
+			}
+			img {
+				margin: 0 auto;
+			}
+		}
+	}
+}
