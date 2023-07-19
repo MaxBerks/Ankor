@@ -1,11 +1,30 @@
-useTabs: true
-tabWidth: 2
+overrides:
+  - files: "*.css"
 
-printWidth: 100
+    options:
+      parser: css
 
-singleQuote: false
-trailingComma: es5
-semi: false
-jsxBracketSameLine: false
+  - files: "*.scss"
 
-parser: babel-ts
+    options:
+      parser: scss
+
+  - files: "*.{yaml,yml}"
+
+    options:
+      parser: yaml
+
+  - files: "*.md"
+
+    options:
+      parser: markdown
+
+  - files: "*.json"
+
+    options:
+      parser: json
+
+  - files: "*.html"
+
+    options:
+      parser: html
