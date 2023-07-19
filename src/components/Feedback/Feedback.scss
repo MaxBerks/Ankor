@@ -1,53 +1,53 @@
 .feedback {
-  background: #f1f1f1;
-  padding: 5% 0;
-  text-align: center;
-  font-family: "Mariupol";
-  font-size: 16px;
-  .feedback__container {
-    margin: 0 auto;
-    width: 40vw;
-    .feedback__name {
-      font-weight: 500;
-      margin-bottom: 10%;
-      text-transform: uppercase;
-      color: #808080;
-      .feedback__delim {
-        color: #e3e3e3;
-      }
-      .feedback__position {
-        color: #c8c8c8;
-      }
-    }
-    .feedback__slider {
-      position: relative;
-      .feedback__text {
-        color: #808080;
-        text-align: justify;
-      }
-      .feedback__btn {
-        cursor: pointer;
-        position: absolute;
-        border-top: 3.5px solid #c7c7c7;
-        border-right: 3.5px solid #c7c7c7;
-        width: 10px;
-        height: 10px;
-        top: 50%;
-        transition: border-color 0.3s ease;
-        &:hover {
-          border-color: #808080;
-        }
-        &-left {
-          transform: translateY(-50%);
-          right: -10%;
-          rotate: 45deg;
-        }
-        &-right {
-          transform: translateY(50%);
-          left: -10%;
-          rotate: -135deg;
-        }
-      }
-    }
-  }
+	background: #ececec;
+	padding: 5% 0;
+	text-align: center;
+	font-family: "Mariupol";
+	font-size: 16px;
+	.feedback__container {
+		margin: 0 auto;
+		width: 40vw;
+		.feedback__name {
+			font-weight: 500;
+			margin-bottom: 10%;
+			text-transform: uppercase;
+			color: #808080;
+			.feedback__delim {
+				color: #e3e3e3;
+			}
+			.feedback__position {
+				color: #c8c8c8;
+			}
+		}
+		.feedback__slider {
+			position: relative;
+			.feedback__text {
+				color: #808080;
+				text-align: justify;
+			}
+			.feedback__btn {
+				cursor: pointer;
+				position: absolute;
+				border-top: 3.5px solid #c7c7c7;
+				border-right: 3.5px solid #c7c7c7;
+				width: 10px;
+				height: 10px;
+				top: 50%;
+				transition: border-color 0.3s ease;
+				&:hover {
+					border-color: #808080;
+				}
+				&-left {
+					transform: translateY(-50%);
+					right: -10%;
+					rotate: 45deg;
+				}
+				&-right {
+					transform: translateY(50%);
+					left: -10%;
+					rotate: -135deg;
+				}
+			}
+		}
+	}
 }

@@ -2,6 +2,7 @@ import "./App.scss";
 import About from "./components/About/About";
 import Contacts from "./components/Contacts/Contacts";
 import Feedback from "./components/Feedback/Feedback";
+import Footer from "./components/Footer/Footer";
 import Gallery from "./components/Gallery/Gallery";
 import Location from "./components/Location/Location";
 import Philosophy from "./components/Philosophy/Philosophy";
@@ -36,6 +37,7 @@ export default function App() {
 				text="“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At urna condimentum mattis pellentesque. Dapibus ultrices in iaculis nunc sed augue lacus viverra. ”"
 			/>
 			<Contacts />
+			<Footer />
 		</div>
 	);
 }
