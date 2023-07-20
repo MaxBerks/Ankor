@@ -1,7 +1,5 @@
 .registration {
 	text-align: center;
-	// display: grid;
-	// grid-template-rows: 1fr 4fr;
 	.registration__content {
 		max-width: 1280px;
 		height: 50vh;
@@ -34,6 +32,66 @@
 				font-weight: 500;
 				color: #808080;
 				text-align: justify;
+			}
+		}
+	}
+}
+
+@media (max-width: 1300px) {
+	.registration {
+		.registration__content {
+			max-width: 990px;
+			.registration__img {
+			}
+			.registration__info {
+				span {
+				}
+			}
+			.registration__container {
+				.registration__text {
+					font-size: 12px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 990px) {
+	.registration {
+		height: 80vh;
+		.registration__content {
+			max-width: 760px;
+			.registration__img {
+			}
+			.registration__info {
+				font-size: 12px;
+				span {
+				}
+			}
+			.registration__container {
+				width: 80vw;
+				.registration__text {
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.registration {
+		.registration__content {
+			max-width: 80vw;
+			.registration__img {
+				height: 10vh;
+			}
+			.registration__info {
+				span {
+				}
+			}
+			.registration__container {
+				width: 80vw;
+				.registration__text {
+				}
 			}
 		}
 	}

@@ -8,3 +8,33 @@
 		gap: 2%;
 	}
 }
+
+@media (max-width: 1300px) {
+	.contacts {
+		height: 200vh;
+		.contacts__container {
+			max-width: 50vw;
+			height: 140vh;
+			margin: 0 auto;
+			grid-template-columns: 1fr;
+			grid-template-rows: repeat(2, 1fr);
+			gap: 15%;
+		}
+	}
+}
+
+@media (max-width: 990px) {
+	.contacts {
+		height: 180vh;
+		.contacts__container {
+			max-width: 80vw;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.contacts {
+		.contacts__container {
+		}
+	}
+}

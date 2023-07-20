@@ -1,45 +1,87 @@
 .header {
-  background: #95A2AC;
-  padding: 15px 0;
-  text-transform: uppercase;
-  .header__content {
-    max-width: 1280px;
-    margin: 0 auto; 
-    display: flex;
-    justify-content: space-between;
-  }
-  .header__logo {
-    width: 12%;
-    display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      cursor: pointer;
-  }
-  .header__nav {
-    font-family: "700";
-    font-size: 14px;
-    width: 40%;
-    display: flex;
-    justify-content: space-between;
-    .nav__item {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      cursor: pointer;
-      transition: all .4s ease;
-      &:hover {
-        opacity: .5;
-      }
-    }
-  }
-  .header__contacts {
-    text-align: center;
-    width: 12%;
-    font-family: "1000";
-    cursor: pointer;
-    transition: all .4s ease;
-    &:hover {
-      opacity: .5;
-    }
-  }
+	background: #95a2ac;
+	padding: 15px 0;
+	text-transform: uppercase;
+	.header__content {
+		max-width: 1280px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+	}
+	.header__logo {
+		width: 12%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		cursor: pointer;
+	}
+	.header__nav {
+		font-family: "700";
+		font-size: 14px;
+		width: 40%;
+		display: flex;
+		justify-content: space-between;
+		.nav__item {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			cursor: pointer;
+			transition: all 0.4s ease;
+			&:hover {
+				opacity: 0.5;
+			}
+		}
+	}
+	.header__contacts {
+		text-align: center;
+		width: 12%;
+		font-family: "1000";
+		cursor: pointer;
+		transition: all 0.4s ease;
+		&:hover {
+			opacity: 0.5;
+		}
+	}
+}
+
+@media (max-width: 1300px) {
+	.header__content {
+		width: 990px;
+
+		.header__nav {
+			display: none;
+		}
+		.header__contacts {
+			display: none;
+		}
+		.header__logo {
+			margin: 0 auto;
+		}
+	}
+}
+
+@media (max-width: 990px) {
+	.header__content {
+		width: 760px;
+
+		.header__nav {
+		}
+		.header__contacts {
+		}
+		.header__logo {
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.header__content {
+		width: 425px;
+
+		.header__nav {
+		}
+		.header__contacts {
+		}
+		.header__logo {
+		}
+	}
 }

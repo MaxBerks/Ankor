@@ -1,25 +1,65 @@
 .logoTitle {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
-  height: 17.5%;
-  margin-bottom: 3%;
-  .logoTitle__logo {
-    width: 40px;
-    margin: 0 auto;
-  }
-  .logoTitle__title {
-    color: #606060;
-    font-family: "1000";
-    font-size: 54px;
-    text-transform: uppercase;
-  }
-  .logoTitle__subtitle {
-    color: #808080;
-    font-family: "Mariupol";
-    font-weight: 500;
-    font-size: 16px;
-    text-transform: uppercase;
-  }
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	height: 20vh;
+	margin-bottom: 3%;
+	.logoTitle__logo {
+		width: 40px;
+		margin: 0 auto;
+	}
+	.logoTitle__title {
+		color: #606060;
+		font-family: "1000";
+		font-size: 54px;
+		text-transform: uppercase;
+	}
+	.logoTitle__subtitle {
+		color: #808080;
+		font-family: "Mariupol";
+		font-weight: 500;
+		font-size: 16px;
+		text-transform: uppercase;
+	}
+}
+
+@media (max-width: 1300px) {
+	.logoTitle {
+		.logoTitle__logo {
+		}
+		.logoTitle__title {
+			font-size: 34px;
+		}
+		.logoTitle__subtitle {
+			font-size: 12px;
+		}
+	}
+}
+
+@media (max-width: 990px) {
+	.logoTitle {
+		height: 15vh;
+		margin-bottom: 5%;
+		.logoTitle__logo {
+		}
+		.logoTitle__title {
+		}
+		.logoTitle__subtitle {
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.logoTitle {
+		height: 15vh;
+		margin-bottom: 10%;
+		.logoTitle__logo {
+		}
+		.logoTitle__title {
+			font-size: 24px;
+		}
+		.logoTitle__subtitle {
+		}
+	}
 }

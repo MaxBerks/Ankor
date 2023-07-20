@@ -51,3 +51,57 @@
 		}
 	}
 }
+
+@media (max-width: 990px) {
+	.contactPerson {
+		.contactPerson__img {
+		}
+		.contactPerson__name {
+			font-size: 12px;
+			.contactPerson__delim {
+			}
+			.contactPerson__position {
+			}
+		}
+		.contactPerson__descr {
+			font-size: 12px;
+		}
+		.contactPerson__links {
+			.contactPerson__btnContainer {
+			}
+			.contactPerson__link {
+				&:hover {
+				}
+				img {
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.contactPerson {
+		.contactPerson__img {
+		}
+		.contactPerson__name {
+			.contactPerson__delim {
+			}
+			.contactPerson__position {
+			}
+		}
+		.contactPerson__descr {
+		}
+		.contactPerson__links {
+			.contactPerson__btnContainer {
+				width: 60%;
+			}
+			.contactPerson__link {
+				width: 34px;
+				&:hover {
+				}
+				img {
+				}
+			}
+		}
+	}
+}

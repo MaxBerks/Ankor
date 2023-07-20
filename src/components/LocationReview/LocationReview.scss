@@ -1,43 +1,64 @@
 .locationReview {
-  height: 100%;
-  .locationReview__img {
-    margin-bottom: 3%;
-  }
-  .locationReview__selection {
-    display: flex;
-    justify-content: space-between;
-    width: 15%;
-    margin: 0 auto;
-    margin-bottom: 5%;
-    .selection__item {
-      cursor: pointer;
-      width: 7px;
-      height: 7px;
-      background: #DADADA;
-      border-radius: 50%;
-      transition: background-color .4s ease;
-      &:hover {
-        background:#BBBBBB;
-      }
-      &-active {
-        background:#BBBBBB;
-      }
-    }
-  }
-  .locationReview__title {
-    text-align: center;
-    color: #808080;
-    font-family: "Mariupol";
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-bottom: 5%;
-  }
-  .locationReview__text {
-    color: #808080;
-    text-align: justify;
-    font-family: "Mariupol";
-    font-size: 16px;
-    font-weight: 500;
-  }
+	height: 100%;
+	.locationReview__img {
+		margin-bottom: 3%;
+	}
+	.locationReview__selection {
+		display: flex;
+		justify-content: space-between;
+		width: 15%;
+		margin: 0 auto;
+		margin-bottom: 5%;
+		.selection__item {
+			cursor: pointer;
+			width: 7px;
+			height: 7px;
+			background: #dadada;
+			border-radius: 50%;
+			transition: background-color 0.4s ease;
+			&:hover {
+				background: #bbbbbb;
+			}
+			&-active {
+				background: #bbbbbb;
+			}
+		}
+	}
+	.locationReview__title {
+		text-align: center;
+		color: #808080;
+		font-family: "Mariupol";
+		font-size: 16px;
+		font-weight: 500;
+		text-transform: uppercase;
+		margin-bottom: 5%;
+	}
+	.locationReview__text {
+		color: #808080;
+		text-align: justify;
+		font-family: "Mariupol";
+		font-size: 16px;
+		font-weight: 500;
+	}
+}
+
+@media (max-width: 768px) {
+	.locationReview {
+		.locationReview__img {
+		}
+		.locationReview__selection {
+			margin-bottom: 10%;
+			.selection__item {
+				&:hover {
+				}
+				&-active {
+				}
+			}
+		}
+		.locationReview__title {
+			margin-bottom: 10%;
+		}
+		.locationReview__text {
+		}
+	}
 }

@@ -16,3 +16,11 @@
 		background: #606060;
 	}
 }
+
+@media (max-width: 768px) {
+	.btn {
+		font-size: 12px;
+		&:hover {
+		}
+	}
+}

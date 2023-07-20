@@ -33,3 +33,48 @@
 		}
 	}
 }
+
+@media (max-width: 1300px) {
+	.start {
+		.start__content {
+			height: 25vh;
+			width: 80%;
+			.start__logo {
+			}
+			.start__title {
+				font-size: 34px;
+			}
+			.start__subtitle {
+			}
+		}
+	}
+}
+
+@media (max-width: 990px) {
+	.start {
+		.start__content {
+			height: 40vh;
+			.start__logo {
+			}
+			.start__title {
+			}
+			.start__subtitle {
+				font-size: 12px;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.start {
+		.start__content {
+			.start__logo {
+			}
+			.start__title {
+				font-size: 24px;
+			}
+			.start__subtitle {
+			}
+		}
+	}
+}

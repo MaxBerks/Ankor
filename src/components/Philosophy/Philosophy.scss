@@ -1,45 +1,112 @@
 .philosophy {
-  background: url("../../assets/images/philosophyBg.jpg") no-repeat;
-  background-size: cover;
-  background-position: center center;
-  .philosophy__title {
-    text-transform: uppercase;
-    text-align: center;
-    color: #606060;
-    font-family: "1000";
-    font-size: 54px;
-    font-style: normal;
-    margin-bottom: 3%;
-    &-crossline {
-      color: #e8e8e8;
-      position: relative;
-      &::before {
-        content: "";
-        position: absolute;
-        width: 115%;
-        left: -7.5%;
-        height: 3px;
-        background-color: #e8e8e8;
-        top: 50%;
-        transform: translateY(-50%);
-      }
-    }
-  }
-  .philosophy__subtitle {
-    color: #808080;
-    text-align: center;
-    font-family: "Mariupol";
-    font-weight: 500;
-    font-size: 16px;
-    text-transform: uppercase;
-    margin-bottom: 3%;
-  }
-  .philosophy__text {
-    color: #999;
-    text-align: justify;
-    font-family: "Mariupol";
-    font-size: 16px;
-    width: 40vw;
-    margin: 0 auto;
-  }
+	background: url("../../assets/images/philosophyBg.jpg") no-repeat;
+	background-size: cover;
+	background-position: center center;
+	.philosophy__title {
+		text-transform: uppercase;
+		text-align: center;
+		color: #606060;
+		font-family: "1000";
+		font-size: 54px;
+		font-style: normal;
+		margin-bottom: 3%;
+		&-crossline {
+			color: #e8e8e8;
+			position: relative;
+			&::before {
+				content: "";
+				position: absolute;
+				width: 115%;
+				left: -7.5%;
+				height: 3px;
+				background-color: #e8e8e8;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+		}
+	}
+	.philosophy__subtitle {
+		color: #808080;
+		text-align: center;
+		font-family: "Mariupol";
+		font-weight: 500;
+		font-size: 16px;
+		text-transform: uppercase;
+		margin-bottom: 3%;
+	}
+	.philosophy__text {
+		color: #999;
+		text-align: justify;
+		font-family: "Mariupol";
+		font-size: 16px;
+		width: 40vw;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 1300px) {
+	.philosophy {
+		.philosophy__title {
+			font-size: 34px;
+			&-crossline {
+				&::before {
+				}
+			}
+		}
+		.philosophy__subtitle {
+		}
+		.philosophy__text {
+		}
+	}
+}
+
+@media (max-width: 1300px) {
+	.philosophy {
+		.philosophy__title {
+			font-size: 34px;
+			&-crossline {
+				&::before {
+				}
+			}
+		}
+		.philosophy__subtitle {
+		}
+		.philosophy__text {
+			width: 80vw;
+		}
+	}
+}
+
+@media (max-width: 990px) {
+	.philosophy {
+		height: 70vh;
+		.philosophy__title {
+			margin-bottom: 7%;
+			&-crossline {
+				&::before {
+				}
+			}
+		}
+		.philosophy__subtitle {
+			margin-bottom: 7%;
+		}
+		.philosophy__text {
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.philosophy {
+		.philosophy__title {
+			font-size: 24px;
+			&-crossline {
+				&::before {
+				}
+			}
+		}
+		.philosophy__subtitle {
+		}
+		.philosophy__text {
+		}
+	}
 }

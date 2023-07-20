@@ -1,55 +1,128 @@
 .about {
-  padding-bottom: 3%;
-  .about__container {
-    height: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    .about__content {
-      flex: 1 1 auto;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      .about__logo {
-        margin: 0 auto;
-        width: 130px;
-        // margin-top: 5%;
-      }
-      .about__gallery {
-        display: grid;
-        grid-template: 1fr 1fr / 1fr 1fr;
-        gap: 7px;
-        .about__label {
-          color: #606060;
-          text-transform: uppercase;
-          font-family: "1000";
-          font-size: 54px;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-around;
-          &-left {
-            text-align: right;
-            margin-right: 1%;
-          }
-        }
-      }
-      .about__title {
-        color: #606060;
-        text-align: center;
-        font-family: "Mariupol";
-        font-size: 16px;
-        text-transform: uppercase;
-        font-weight: 500;
-      }
-      .about__text {
-        margin: 0 auto;
-        color: #999;
-        text-align: justify;
-        width: 40vw;
-        font-family: "Mariupol";
-        font-size: 16px;
-      }
-    }
-  }
+	padding-bottom: 3%;
+	.about__container {
+		height: 100%;
+		max-width: 1280px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		.about__content {
+			flex: 1 1 auto;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			.about__logo {
+				margin: 0 auto;
+				width: 130px;
+				// margin-top: 5%;
+			}
+			.about__gallery {
+				display: grid;
+				grid-template: 1fr 1fr / 1fr 1fr;
+				gap: 7px;
+				.about__label {
+					color: #606060;
+					text-transform: uppercase;
+					font-family: "1000";
+					font-size: 54px;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-around;
+					&-left {
+						text-align: right;
+						margin-right: 1%;
+					}
+				}
+			}
+			.about__title {
+				color: #606060;
+				text-align: center;
+				font-family: "Mariupol";
+				font-size: 16px;
+				text-transform: uppercase;
+				font-weight: 500;
+			}
+			.about__text {
+				margin: 0 auto;
+				color: #999;
+				text-align: justify;
+				width: 40vw;
+				font-family: "Mariupol";
+				font-size: 16px;
+			}
+		}
+	}
+}
+
+@media (max-width: 1300px) {
+	.about {
+		.about__container {
+			max-width: 990px;
+			.about__content {
+				.about__logo {
+				}
+				.about__gallery {
+					.about__label {
+						font-size: 34px;
+					}
+					.about__title {
+					}
+					.about__text {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 990px) {
+	.about {
+		.about__container {
+			max-width: 700px;
+			.about__content {
+				flex: none;
+				height: 60%;
+				.about__logo {
+				}
+				.about__gallery {
+					.about__label {
+						font-size: 24px;
+						&-left {
+						}
+					}
+				}
+				.about__title {
+				}
+				.about__text {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.about {
+		.about__container {
+			max-width: 80vw;
+			.about__content {
+				height: 80%;
+				max-width: 100%;
+				.about__logo {
+				}
+				.about__gallery {
+					.about__label {
+						&-left {
+						}
+					}
+				}
+				.about__title {
+				}
+				.about__text {
+					font-size: 12px;
+				}
+			}
+		}
+	}
 }
